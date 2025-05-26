@@ -16,7 +16,7 @@ void generate(vector<int> &subset , int i , vector<int>&nums){
     //ith element considered
     subset.push_back(nums[i]);
     generate(subset , i+1 , nums);
-    subset.pop_back();
+    subset.pop_back(); //backtrack
 }
 
 int main(){
