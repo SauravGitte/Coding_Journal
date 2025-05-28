@@ -1,1 +1,8 @@
+# Exectutables
 *.exe
+
+# VS Code settings folder
+.vscode/
+
+# VS Code workspace file
+*.code-workspace
