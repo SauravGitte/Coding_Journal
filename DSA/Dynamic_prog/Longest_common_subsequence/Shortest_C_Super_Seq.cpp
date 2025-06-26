@@ -9,7 +9,7 @@ int main(){
     int n = str2.length();
 
     // DP table for LCS
-    vector<vector<int>> dp(m+1, vector<int>(n+1, 0));
+    vector<vector<int>> dp(m+1, vector<int>(n+1, -1));
 
     // Build the LCS DP table
     for(int i = 1; i <= m; i++) {
