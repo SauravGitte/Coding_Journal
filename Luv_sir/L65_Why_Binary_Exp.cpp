@@ -15,6 +15,4 @@ int main(){
     cout << fixed << setprecision(30) << p<<endl;
     // Notice it cannot print properly 
 
-
-
 }
